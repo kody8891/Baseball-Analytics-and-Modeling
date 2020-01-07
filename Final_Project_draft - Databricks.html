@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en"/>
+
+    <title>Databricks</title>
+<link rel="shortcut icon" href="favicon.ico"><link href="css/main.6c99dd10.css" rel="stylesheet"><link href="css/print.6c99dd10.css" rel="stylesheet" media="print"></head>
+<body>
+<noscript>
+    You need to enable JavaScript to run this app.
+</noscript>
+
+
+<div id="toolbar"></div>
+<div id="tooltip" class="hidden">
+    <p><span id="value"></span></p>
+</div>
+
+<div id="global-notification-container"></div>
+
+<div id="topbar" style="display: none;">
+    <div class="tb-title-wrapper tb-title-wrapper-central">
+        <span class="tb-title"></span>
+        <span class="tb-title-lang"></span>
+        <div class="tb-status">
+            <span class="tb-status-msg tb-status-msg-error"></span>
+            <span class="tb-status-msg tb-status-msg-banner"></span>
+            <span class="tb-status-msg tb-status-msg-locked"></span>
+            <span class="tb-status-msg tb-status-msg-connecting">Connecting...&nbsp;</span>
+            <span class="tb-status-msg tb-status-msg-waiting">Still working...&nbsp;</span>
+            <img class="tb-status-spinner" src="/static/media/spinner.gif" alt="spinner">
+        </div>
+    </div>
+    <div class="tb-title-wrapper tb-title-wrapper-right">
+        <div class="tb-trial-msg"></div>
+        <div class="tb-title-icons tb-title-icons-right"></div>
+        <div class="tb-status presence">
+            <span class="tb-status-msg tb-status-presence"></span>
+        </div>
+    </div>
+    <a class="tb-button tb-button-right tb-button-user" title="Account">
+        <i class="fa fa-user fa-lg"></i>
+    </a>
+    <a class="tb-button tb-button-right tb-button-help" title="Help and Support">
+        <i class="fa fa-question fa-lg"></i>
+    </a>
+    <a class="tb-button tb-button-right tb-button-upgrade" title="Upgrade" target="_blank">
+    <span>
+        <i class="fa fa-arrow-circle-up"></i>Upgrade
+    </span>
+    </a>
+</div>
+
+<div id="sidebar-and-notebook">
+    <div id="sidebar" class="sidebar"></div>
+    <div id="overallView">
+        <div id="context-bar"></div>
+        <div id="content"></div>
+    </div>
+</div>
+
+<div id="filebrowser-popup" style="display: none;">
+    <div class="filebrowser-header">Workspace</div>
+    <div class="filebrowser" style="display: none;"></div>
+</div>
+
+<div id="projects-filebrowser-popup" style="display: none;">
+    <div class="filebrowser-header">
+        Projects
+        <a class="btn btn-secondary create-project">Create</a>
+    </div>
+    <div class="filebrowser" style="display: none;"></div>
+</div>
+
+<div id="searchpanel-popup">
+    <div class="searchpanel" data-panel="Search" style="display: none;" ></div>
+</div>
+
+<div id="title-menu" class="tb-title-menu dropdown-menu" role="menu"></div>
+
+<div id="user-menu" class="dropdown-menu"></div>
+
+<ul id="help-menu" class="dropdown-menu">
+    <li><a class="guide-button">Documentation</a></li>
+    <li><a target="_blank" class="feedback-button">Feedback</a></li>
+    <li><a target="_blank" class="forum-button">Forum</a></li>
+    <li><a target="_blank" class="support-button">Support</a></li>
+</ul>
+
+
+<div id="hidden" style="display: none;"></div>
+<div id="history" style="display: none;"></div>
+
+<div id="debugHelper" style="background-color: white; z-index: 1000; display: none; position: fixed; right: 190px; bottom: 0px;">
+    <div id="debugRoute" style="position: fixed; right: 190px; bottom: 40px;"></div>
+    <div id="debugCounters" style="position: fixed; right: 50px; bottom: 20px;"></div>
+    <a href="/ops/">[OPS]</a>
+    <a href="/ops/debug">Debug</a>
+    <a href="/ops/metrics">Metrics</a>
+    <a href="/ops/requests">Requests</a>
+</div>
+
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+<script type="text/javascript" src="js/metrics-graphics.82840a7f.js"></script><script type="text/javascript" src="js/main.407da55d.js"></script></body>
+</html>
